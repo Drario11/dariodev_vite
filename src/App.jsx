@@ -1,15 +1,21 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import Sobre from './Sobre.jsx'
+import Header from './Header.jsx'
+import Contato from './Contato.jsx'
+import Home from './Home.jsx'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>Bem vindo ao meu aprendizado de React com Vite  </h1>
-      <p>Este é um projeto para aprender React com Vite</p>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sobre" element={<Sobre />} />
+        <Route path="/contato" element={<Contato />} />
+      </Routes>
     </>
   )
 }

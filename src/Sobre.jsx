@@ -1,10 +1,10 @@
-function Sobre() {
+import Gallery from "./Sobre/Gallery";
+import "./Sobre/sobre.css"
+
+export default function Sobre() {
     return (
-        <section>
-            <h2>Sobre</h2>
-            <p>Este é um projeto para aprender React com Vite</p>
-        </section>
+        <div className="sobre">
+            <Gallery />
+        </div>
     )
 }
-
-export default Sobre

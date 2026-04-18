@@ -3,6 +3,8 @@ import Header from './Header.jsx'
 import Home from './Home.jsx'
 import Sobre from './Sobre.jsx'
 import Contato from './Contato.jsx'
+import Rendecondici from './Treino/Rendecondici.jsx'
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/contato" element={<Contato />} />
+          <Route path="/treino" element={<Rendecondici />} />
         </Routes>
       </main>
     </>

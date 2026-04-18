@@ -9,6 +9,7 @@ function Header() {
                     <li><Link to="/" style={{ color: 'white' }}>Home</Link></li>
                     <li><Link to="/sobre" style={{ color: 'white' }}>Sobre</Link></li>
                     <li><Link to="/contato" style={{ color: 'white' }}>Contato</Link></li>
+                    <li><Link to="/treino" style={{ color: 'white' }}>Treino</Link></li>
                 </ul>
             </nav>
         </header>

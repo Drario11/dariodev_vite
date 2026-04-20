@@ -6,6 +6,8 @@ export default function Render() {
     const chemist = people.filter(person => person.profession === 'chemist'
     );
     const listItens = chemist.map(person =>
+        // CORREÇÃO (Aviso do Console): O React exige que cada item gerado dentro de um .map() tenha uma propriedade "key" única.
+        // Sem isso, aquele aviso vermelho "Each child in a list should have a unique 'key' prop" aparece no console.
         <li key={person.id}>
             <img
                 src={getImageUrl(person)}

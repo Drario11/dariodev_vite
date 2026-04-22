@@ -9,6 +9,7 @@ export default function MenuTreino() {
                     <li><Link to="/treino" style={{ color: 'white' }}>Redicionamento condicional</Link></li>
                     <li><Link to="/treino/Render" style={{ color: 'white' }}>Renderizando Lista</Link></li>
                     <li><Link to="/treino/Mostar" style={{ color: 'white' }}>Componentes Puros</Link></li>
+                    <li><Link to="/treino/AppH" style={{ color: 'white' }}>sua UI como uma arvore</Link></li>
 
                 </ul>
             </nav>

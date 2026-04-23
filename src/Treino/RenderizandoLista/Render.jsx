@@ -1,6 +1,6 @@
-import { people } from "./data.jsx";
-import { getImageUrl } from "./utils.jsx";
-import './styler.css'
+import { people } from "./data";
+import { getImageUrl } from "./utils";
+import estilos from './styler.module.css'
 
 export default function Render() {
     const chemist = people.filter(person => person.profession === 'chemist'
@@ -21,7 +21,7 @@ export default function Render() {
         </li>
     )
     return (
-        <ul>
+        <ul className={estilos.listaCientistas}>
             {listItens}
         </ul>
     )

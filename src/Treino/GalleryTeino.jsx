@@ -4,6 +4,7 @@ import Rendecondici from './Rendecondici'
 import Render from './RenderizandoLista/Render'
 import Mostar from './ComponentsPuros/Mostar'
 import AppH from './YourUIasaTree/AppH'
+import AppCompPuro from './MemoriaComponPuro/AppCompPuro'
 
 
 export default function GalleryTeino() {
@@ -15,6 +16,7 @@ export default function GalleryTeino() {
                 <Route path="/Render" element={<Render />} />
                 <Route path="/Mostar" element={<Mostar />} />
                 <Route path="/AppH" element={<AppH />} />
+                <Route path="/MemoriaCompPuro" element={<AppCompPuro />} />
             </Routes>
         </section>
     )
